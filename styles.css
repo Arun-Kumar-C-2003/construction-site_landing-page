@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family:  'Segoe UI', sans-serif;
+}
+
+.nav_bar{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.nav-container{
+    display: flex;
+    align-items: baseline;
+    padding: 1.2rem 2rem;
+}
+
+/* .nav_bar{
+    background-color: aqua  ;
+} */
+
+.logo{
+    margin-right: auto;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+.nav_menu{
+    display: flex;
+    gap: 2rem;  
+
+}
+
+.nav_menu a{
+    color: rgb(48, 45, 45);
+    font-weight: 500;
+}
+
+.book{
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    padding: 0.5rem 0.7rem;
+    border-radius: 2rem;
+}
+
+.intro_container{
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.text_img{
+    display: flex;
+}
+
+.h2_text{
+    margin-right: auto;
+    font-size: 3rem;
+}
+
+.intro_img_span {
+    padding-right: 22rem;
+    display: flex;
+    align-items: baseline;
+    
+}
+
+.intro_img{
+    border-radius: 50%;
+}
+
+.img_profile_btn{
+    display: flex;
+    margin-top: 2.5rem;
+    
+}
+
+.intro_btns{
+    
+    margin-top: 5rem;
+    
+    
+}
+
+.intro_main_img{
+    width: 30rem;
+    border-radius: 1rem;
+    margin-right: auto;
+}
+
+.intro_text{
+    font-size: 1rem;
+    margin-right: 22rem;
+}
+
+.image{
+    width: 3rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+.add_icon{
+    padding: 0.2rem;
+    font-size: 2rem;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.button-style{
+    margin: 1rem;
+    width: 10rem;
+    color: green;
+    background-color: transparent; 
+    border:0.1rem solid green;
+}
+
+
+.spl_val{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+    width: 150vh;
+    font-size: .7rem;
+    color: rgb(125, 124, 124);
+}
+.text_span{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #242424;
+}
+
+
+.service_container{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 1.2rem 3rem;
+    background-color: #faf9f9;
+}
+
+.text_slidebtn{
+    display: flex;
+    align-items: baseline;
+    
+}
+
+.service_line{
+    margin-right: auto;
+    color: #7d7c7c;
+    font-size: .7rem;
+}
+
+.sld_btn1, .sld_btn2{
+    background-color: #eeb52f;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color:rgb(125, 124, 124);
+    border: none;
+    border-radius: 50%;
+}
+
+.slide_services{
+    display: flex;
+    
+}
+
+.slide_box{
+    background-color: rgba(48, 37, 37, 0.781);
+    border-radius: .5rem;
+    padding: 0.4rem 1rem 1rem 1rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    box-shadow: 1px 2px 10px rgb(226, 225, 225);
+}
+
+.slide_box_transparent{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: .5rem;
+    padding: 0.4rem 1rem 1rem 1rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    box-shadow: 1px 2px 10px rgb(226, 225, 225);
+}
+
+.slide_icon{
+    color: green;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: .5rem;
+}
+
+.slide_title{
+    margin-top: .5rem;
+    color:white;
+    font-size:1rem;
+ 
+}
+
+.slide_para{
+    color:#faf9f9;
+    font-size:0.63rem;
+    padding-top: .3rem;
+    margin-bottom: 0.3rem;
+}
+
+.slide_title_black{
+     margin-top: .5rem;
+    font-size:1rem;
+}
+
+.slide_para_black{
+    font-size:0.63rem;
+    padding-top: .3rem;
+    margin-bottom: 0.3rem;
+}
+
+
+.about_para_style{
+    background-color: #faf9f9;
+    padding: 0.7rem 1rem 1rem 0.8rem;
+    border-radius: 0.5rem;
+}
+
+.about_para_style_transparent{
+    background-color: transparent;
+    border: 2px solid #faf9f9;
+    padding: 0.7rem 1rem 1rem 0.8rem;
+    border-radius: 0.5rem;
+}
+
+
+/* style="display: flex; flex-direction: column; gap:1rem; margin-left: 10rem; margin-top: 0.9rem;" */
+.about_para_box{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 15rem;
+    margin-top: 0.9rem;
+}
+
+
+/* .icon{
+    width: 48px;
+    height: 48px;
+    font-size: 35px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+} */
+
