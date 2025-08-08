@@ -85,7 +85,7 @@ body{
     font-size: 3rem;
 }
 
-.intro_img_span {
+/* .intro_img_span {
     padding-right: 22rem;
     display: flex;
     align-items: baseline;
@@ -93,7 +93,19 @@ body{
 }
 
 .intro_img{
+    width: 10.3rem;
+    height: 10rem;
     border-radius: 50%;
+    padding-right: 22rem;
+    display: flex;
+    align-items: baseline;
+} */
+
+.logo_img{
+    height: 10rem;
+    width: 10.3rem;
+    border-radius: 50%;
+    margin-right: auto;
 }
 
 .img_profile_btn{
